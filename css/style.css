@@ -1,0 +1,35 @@
+@import url(_reset.css); @import url(_variaveis.css);
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, #ccc, #4b4b4b);
+}
+
+.calc {
+    width: 250px;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 5px black;
+    margin-left: 570px;
+    margin-top: 135px;
+}
+
+input {
+    border-radius: 4px;
+    width: 166px;
+    height: 37px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 76px;
+    height: 42px;
+}
